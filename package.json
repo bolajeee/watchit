@@ -1,1 +1,23 @@
-{"http.proxy":"http://my.corporate.proxy","http.proxyAuthorization":null,"http.proxyStrictSSL":false,"name":"watchit","version":"1.0.0","description":"","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"keywords":[],"author":"","license":"ISC","bin":{"watchit":"index.js"},"dependencies":{"caporal":"^1.4.0","chalk":"^5.3.0","chokidar":"^3.5.3","fs":"^0.0.1-security","lodash.debounce":"^4.0.8"}}
+{
+    "http.proxy": "http://my.corporate.proxy",
+    "http.proxyAuthorization": null,
+    "http.proxyStrictSSL": false,
+    "name": "watchit",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bin": {
+        "watchit": "index.js"
+    },
+    "dependencies": {
+        "chokidar": "^3.5.3",
+        "fs": "^0.0.1-security",
+        "lodash.debounce": "^4.0.8"
+    }
+}
